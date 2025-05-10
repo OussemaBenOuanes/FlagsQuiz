@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+android/app/build/
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserstate
+
+# Metro
+.expo/
+.expo-shared/
+.expo-cache/
+.expo/packager-info.json
+.expo/settings.json
+
+# Misc
+.env
+*.env.*
+*.keystore
+
+# TypeScript
+*.tsbuildinfo
+
+# VSCode
+.vscode/
+
+# Coverage
+coverage/
