@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import flagsData from '../data/flags';
+import { flags as flagsData } from '../data/flags';
 
 const useGame = () => {
     const [score, setScore] = useState(0);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [questions, setQuestions] = useState([]);
+    const [questions, setQuestions] = useState<{ country: string; image: string }[]>([]);
     const [gameOver, setGameOver] = useState(false);
 
     useEffect(() => {
