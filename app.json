@@ -8,7 +8,7 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=256&q=80",
+    "icon": "https://play-lh.googleusercontent.com/m6AGQOJliSvx8A2q3OyYnGA8bDaNvqLrNB8rWlLXqRXt-0P-iQf1fS9AU9Z95a6NJ3U=w240-h480-rw",
     "splash": {
       "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=512&q=80",
       "resizeMode": "contain",
