@@ -1,42 +1,42 @@
 export const flags = [
   {
     country: "United States",
-    image: require("../../assets/flags/us.png"),
+    image: "https://flagcdn.com/w320/us.png",
   },
   {
     country: "Canada",
-    image: require("../../assets/flags/ca.png"),
+    image: "https://flagcdn.com/w320/ca.png",
   },
   {
     country: "United Kingdom",
-    image: require("../../assets/flags/gb.png"),
+    image: "https://flagcdn.com/w320/gb.png",
   },
   {
     country: "Australia",
-    image: require("../../assets/flags/au.png"),
+    image: "https://flagcdn.com/w320/au.png",
   },
   {
     country: "Germany",
-    image: require("../../assets/flags/de.png"),
+    image: "https://flagcdn.com/w320/de.png",
   },
   {
     country: "France",
-    image: require("../../assets/flags/fr.png"),
+    image: "https://flagcdn.com/w320/fr.png",
   },
   {
     country: "Japan",
-    image: require("../../assets/flags/jp.png"),
+    image: "https://flagcdn.com/w320/jp.png",
   },
   {
     country: "Brazil",
-    image: require("../../assets/flags/br.png"),
+    image: "https://flagcdn.com/w320/br.png",
   },
   {
     country: "India",
-    image: require("../../assets/flags/in.png"),
+    image: "https://flagcdn.com/w320/in.png",
   },
   {
     country: "South Africa",
-    image: require("../../assets/flags/za.png"),
+    image: "https://flagcdn.com/w320/za.png",
   },
 ];

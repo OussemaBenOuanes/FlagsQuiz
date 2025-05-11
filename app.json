@@ -4,13 +4,13 @@
   "expo": {
     "name": "Flag Quiz App",
     "slug": "flag-quiz-app",
-    "sdkVersion": "50.0.0",
+    "sdkVersion": "53.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/icon.png",
+    "icon": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=256&q=80",
     "splash": {
-      "image": "./src/assets/splash.png",
+      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=512&q=80",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,7 +25,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "foregroundImage": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=256&q=80",
         "backgroundColor": "#FFFFFF"
       }
     },
