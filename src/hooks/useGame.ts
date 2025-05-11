@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { flagsData } from '../data/flags';
+import flagsData from '../data/flags';
 
 const useGame = () => {
     const [score, setScore] = useState(0);
@@ -12,7 +12,7 @@ const useGame = () => {
         setQuestions(shuffledFlags);
     }, []);
 
-    const handleAnswer = (isCorrect) => {
+    const handleAnswer = (isCorrect: boolean) => {
         if (isCorrect) {
             setScore(score + 1);
         }
