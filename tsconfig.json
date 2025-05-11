@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
-    "lib": ["es6", "dom"],
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "jsx": "react-native",
     "strict": true,
     "esModuleInterop": true,
@@ -11,15 +14,35 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["components/*"],
-      "@screens/*": ["screens/*"],
-      "@hooks/*": ["hooks/*"],
-      "@utils/*": ["utils/*"],
-      "@constants/*": ["constants/*"],
-      "@types/*": ["types/*"],
-      "@data/*": ["data/*"]
+      "@components/*": [
+        "components/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "extends": "expo/tsconfig.base"
 }
